@@ -1,6 +1,6 @@
 {
   "name": "reddit live",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
   "description": "Auto update a reddit comment stream",
   "homepage_url": "http://gary.mcad.am/a/reddit-live",
