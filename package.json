@@ -1,0 +1,31 @@
+{
+  "name": "chrome-reddit-live-comments",
+  "version": "1.0.0",
+  "description": "A simple extension to allow live reloading of a reddit comment thread.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "npm run _prettier -- --write",
+    "lint": "npm run _eslint",
+    "check-format": "npm run _prettier -- --list-different",
+    "pre-commit": "npm run check-format && npm run lint",
+    "_prettier": "prettier src/**/*.js",
+    "_eslint": "eslint src/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpmcadam/chrome-reddit-live-comments.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gpmcadam/chrome-reddit-live-comments/issues"
+  },
+  "homepage": "https://github.com/gpmcadam/chrome-reddit-live-comments#readme",
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1"
+  }
+}

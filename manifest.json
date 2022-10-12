@@ -1,7 +1,7 @@
 {
   "name": "reddit live",
-  "version": "0.0.2",
-  "manifest_version": 2,
+  "version": "0.1.0",
+  "manifest_version": 3,
   "description": "Auto update a reddit comment stream",
   "homepage_url": "http://gary.mcad.am/a/reddit-live",
   "icons": {
@@ -10,28 +10,20 @@
     "128": "icons/icon128.png"
   },
   "default_locale": "en",
-  "permissions": [
-    "https://www.reddit.com/r/*",
-    "http://www.reddit.com/r/*"
+  "host_permissions": [
+    "https://*.reddit.com/*"
   ],
   "content_scripts": [
     {
       "matches": [
-        "https://www.reddit.com/r/*",
-        "http://www.reddit.com/r/*"
+          "https://*.reddit.com/*"
       ],
       "css": [
         "src/inject/inject.css"
-      ]
-    },
-    {
-      "matches": [
-        "https://www.reddit.com/r/*",
-        "http://www.reddit.com/r/*"
       ],
       "js": [
-        "src/inject/inject.js",
-        "js/jquery/jquery.min.js"
+        "js/jquery/jquery.min.js",
+        "src/inject/inject.js"
       ]
     }
   ]
