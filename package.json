@@ -1,6 +1,6 @@
 {
   "name": "chrome-reddit-live-comments",
-  "version": "1.0.0",
+  "version": "0.1.2",
   "description": "A simple extension to allow live reloading of a reddit comment thread.",
   "main": "index.js",
   "scripts": {
