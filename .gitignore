@@ -1,3 +1,5 @@
 .DS_Store
 _resources/
 node_modules
+dist/
+.parcel-cache

@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    ["@emotion"],
+    [
+      "@babel/plugin-proposal-pipeline-operator",
+      { "proposal": "hack", "topicToken": "%" }
+    ],
+    [
+      "@babel/plugin-transform-react-jsx",
+      {
+        "runtime": "automatic",
+        "importSource": "react"
+      }
+    ]
+  ]
+}
